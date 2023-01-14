@@ -14,7 +14,7 @@
 } */
 
 body{
-    background: url(bg_img.png);
+    /* background: url(bg_img.png); */
     font-family: "Roboto", sans-serif;
     /* background: #46cc72; */
     justify-content: center;
@@ -46,16 +46,60 @@ body::after{
     
 }
 
+
+/* nav css starts here */
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 120px;
+}
+
+nav h1{
+    font-size: 100px;
+    color: #ffff;
+    font-weight: 600;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 24px;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    z-index: -1;
+}
+/* nav css ends here */
+
 .container1{
     margin: 1rem;
     padding-top: 5rem;
     padding-left: 5rem;
+    /* padding: 10rem; */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
+    /* max-width: 1200px; */
+    /* flex-wrap: wrap; */
     z-index: 1;
     background-size: cover;
 
@@ -63,9 +107,9 @@ body::after{
 
 .container1 .card{
     position: relative;
-    width: 280px;
-    height: 400px;
-    margin: 30px;
+    width: 320px;
+    height: 600px;
+    margin: 60px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5) ;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
@@ -377,7 +421,7 @@ button:hover{
    
 } */
 nav{
-        border-bottom: 1px solid black ;
+        /* border-bottom: 1px solid black ; */
         /* position: fixed; */
         width: 100%;
         top: 0%;
@@ -570,8 +614,8 @@ nav{
 
                            
 .nft1{
-    width: 280px;
-    height: 400px;
+    width: 320px;
+    height: 600px;
     object-fit: cover;
     flex: -1;
 }
