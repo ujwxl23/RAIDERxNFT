@@ -135,13 +135,13 @@ nav ul li a{
 }
 
 .back-video{
-    position: absolute;
+    position: cover;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
 
-/* @media (min-aspect-ratio: 16/9){
+@media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
         height: auto;
@@ -153,4 +153,4 @@ nav ul li a{
         width: auto;
         height: 100%;
     }
-} */
+}
